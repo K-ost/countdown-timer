@@ -154,7 +154,7 @@ header {
   position: absolute;
   left: 0;
   top: 50%;
-  z-index: 20;
+  z-index: 50;
 }
 .countnum-line::before, .countnum-line::after {
   background: var(--color-dark-blue);
