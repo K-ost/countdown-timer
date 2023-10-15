@@ -244,16 +244,19 @@ header {
     --title: 18px;
   }
 
-  body::after {
-    background-position: calc(100% + 220px) bottom;
-    background-size: auto 230px;
-    content: '';
+  body {
     display: block;
-    left: 0;
-    min-height: 100vh;
-    position: absolute;
-    top: 0;
-    width: 100vw;
+    &::after {
+      background-position: calc(100% + 220px) bottom;
+      background-size: auto 230px;
+      content: '';
+      display: block;
+      left: 0;
+      min-height: 100vh;
+      position: absolute;
+      top: 0;
+      width: 100vw;
+    }
   }
   .counter {
     width: 320px;
