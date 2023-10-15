@@ -253,9 +253,6 @@ header {
     --radius: 4px;
     --title: 18px;
   }
-  body {
-    display: block;
-  }
   body::after {
     background-position: calc(100% + 220px) bottom;
     background-size: auto 230px;

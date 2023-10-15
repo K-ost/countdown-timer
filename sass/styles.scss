@@ -245,7 +245,6 @@ header {
   }
 
   body {
-    display: block;
     &::after {
       background-position: calc(100% + 220px) bottom;
       background-size: auto 230px;
