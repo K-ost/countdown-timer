@@ -61,11 +61,15 @@ main {
 /* header */
 header {
   color: var(--color-white);
-  font-size: var(--title);
-  letter-spacing: 5px;
   padding: 135px 0 100px;
   text-align: center;
   text-transform: uppercase;
+}
+header h1 {
+  font-size: var(--title);
+  font-weight: inherit;
+  letter-spacing: 5px;
+  margin: 0;
 }
 
 /* counter */
