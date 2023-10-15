@@ -13,6 +13,7 @@
   --fs: 14px;
   --flip: 250ms;
   --counter-height: 138px;
+  --img: 60px;
   --margin: 25px;
   --number: 78px;
   --radius: 8px;
@@ -79,6 +80,18 @@ header h1 {
   grid-column-gap: var(--gap);
   width: 690px;
   margin: 0 auto;
+  position: relative;
+}
+.counter::after {
+  background: url(../images/pumpkin.svg) center/cover no-repeat;
+  content: "";
+  display: block;
+  height: var(--img);
+  left: -20px;
+  position: absolute;
+  top: -30px;
+  transform: rotate(-15deg);
+  width: var(--img);
 }
 .counter-item {
   position: relative;
@@ -255,6 +268,7 @@ header h1 {
     --dot: 6px;
     --gap: 15px;
     --fs: 8px;
+    --img: 46px;
     --margin: 15px;
     --number: 36px;
     --radius: 4px;
