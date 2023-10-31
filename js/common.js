@@ -26,7 +26,7 @@ const interval = setInterval(() => updateTimer(), 1000)
 
 // updateTimer
 const updateTimer = () => {
-  const targetDate = new Date('October 31, 2023 00:00:00'),
+  const targetDate = new Date('January 1, 2024 00:00:00'),
         currentdate = new Date(),
         difference = targetDate - currentdate,
         expired = difference < 0
