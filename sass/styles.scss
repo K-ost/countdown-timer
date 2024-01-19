@@ -83,17 +83,17 @@ header {
   width: 690px;
   margin: 0 auto;
   position: relative;
-  &::after {
-    background: url(../images/christmas-tree.svg) center / cover no-repeat;
-    content: '';
-    display: block;
-    height: var(--img);
-    left: -20px;
-    position: absolute;
-    top: -30px;
-    transform: rotate(-15deg);
-    width: var(--img);
-  }
+  // &::after {
+  //   background: url(../images/christmas-tree.svg) center / cover no-repeat;
+  //   content: '';
+  //   display: block;
+  //   height: var(--img);
+  //   left: -20px;
+  //   position: absolute;
+  //   top: -30px;
+  //   transform: rotate(-15deg);
+  //   width: var(--img);
+  // }
 
   &-item {
     position: relative;
